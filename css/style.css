@@ -365,13 +365,13 @@ h9 {
  }
  .wrapper .box{
    width: 10%;
-   bottom: 100px;
+   bottom: -100px;
    display: flex;
-   height: 5px;
+   height: 22px;
    background: #3742fa;
    border-radius: 5px;
    color: #fff;
-   font-size: 20px;
+   font-size: 15px;
    opacity: 0;
 
    
