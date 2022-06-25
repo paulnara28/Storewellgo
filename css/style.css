@@ -322,39 +322,43 @@ footer{
    justify-content: center;
    flex-direction: column;
 }
+
 h7{
    color: rgb(0, 0, 0);
    font-size: 3em;
    margin-bottom: 30px;
 }
 
-iframe{
+.iframe{
    width: 80%;
    height: 300px;
-   font size: 1em;
+   font-size: 1em;
    filter: invert(100%);
-   margin-bottom: 50px;
+   margin-bottom: 100px;
+   color: #000;
 }
 
 
 h8 {
    color: rgb(0, 0, 0);
    font-size: 3em;
-   margin-bottom: -10px;
+   height: 30px;
+   margin-bottom: 30px;
 }
 
 h9 {
    color: rgb(0, 0, 0);
    font-size: 3em;
-   margin-bottom: 50px;
+   height: 30px;
+   margin-bottom: 5px;
 }
 
 .wrapper{
 
    padding: 10px 20px;
    text-align: center;
-   width: 80% auto;
-   height: 60vh auto;
+   width: 100% auto;
+   height: 100vh auto;
    display: flex;
    background-color: rgb(255, 204, 123);
    align-items: center;
