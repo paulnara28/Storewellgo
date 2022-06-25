@@ -322,43 +322,39 @@ footer{
    justify-content: center;
    flex-direction: column;
 }
-
 h7{
    color: rgb(0, 0, 0);
    font-size: 3em;
    margin-bottom: 30px;
 }
 
-.iframe{
+iframe{
    width: 80%;
    height: 300px;
-   font-size: 1em;
+   font-size: 2em;
    filter: invert(100%);
-   margin-bottom: 100px;
-   color: #000;
+   margin-bottom: 50px;
 }
 
 
 h8 {
    color: rgb(0, 0, 0);
    font-size: 3em;
-   height: 30px;
-   margin-bottom: 30px;
+   margin-bottom: 5px;
 }
 
 h9 {
    color: rgb(0, 0, 0);
    font-size: 3em;
-   height: 30px;
-   margin-bottom: 5px;
+   margin-bottom: 50px;
 }
 
 .wrapper{
 
    padding: 10px 20px;
    text-align: center;
-   width: 100% auto;
-   height: 100vh auto;
+   width: 80% auto;
+   height: 60vh auto;
    display: flex;
    background-color: rgb(255, 204, 123);
    align-items: center;
@@ -369,8 +365,9 @@ h9 {
  }
  .wrapper .box{
    width: 10%;
+   bottom: 100px;
    display: flex;
-   height: -100px auto;
+   height: 5px;
    background: #3742fa;
    border-radius: 5px;
    color: #fff;
