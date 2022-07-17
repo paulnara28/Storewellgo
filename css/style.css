@@ -53,7 +53,7 @@ html{
 
 
 body{
-   background: rgb(255, 204, 123);
+   background: #2da6b6;
 }
 
 .container{
@@ -64,7 +64,8 @@ body{
 
 .container .title{
    font-size: 3.5rem;
-   color:rgb(86, 72, 246);
+   color:rgb(179, 0, 0);
+   font-weight: bold;
    text-transform: uppercase;
    margin-bottom: 3rem;
    text-align: center;
@@ -80,14 +81,14 @@ body{
    text-align: center;
    padding:3rem 2rem;
    background: #fff;
-   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
    outline: .1rem solid #ccc;
    outline-offset: -1.5rem;
    cursor: pointer;
 }
 
 .container .products-container .product:hover{
-   outline: .2rem solid #222;
+   outline: .2rem solid rgb(34, 34, 34);
    outline-offset: 0;
 }
 
@@ -317,7 +318,7 @@ footer{
    width: 100%;
    height: 70vh;
    display: flex;
-   background-color: rgb(255, 204, 123);
+   background-color: #2da6b6;
    align-items: center;
    justify-content: center;
    flex-direction: column;
@@ -356,7 +357,7 @@ h9 {
    width: 80% auto;
    height: 60vh auto;
    display: flex;
-   background-color: rgb(255, 204, 123);
+   background-color: #2da6b6;
    align-items: center;
    justify-content: center;
    flex-direction: column;
@@ -368,7 +369,7 @@ h9 {
    bottom: -100px;
    display: flex;
    height: 30px;
-   background: #3742fa;
+   background: #15ce3a;
    border-radius: 5px;
    color: #fff;
    font-size: 20px;
@@ -383,7 +384,7 @@ h9 {
    left: 50%;
    transform: translate(-50%,-50%);
    padding: 10px 20px;
-   background: #3742fa;
+   background: #00931d;
    text-decoration: none;
    color: #fff;
    display: flex;
@@ -407,7 +408,7 @@ h9 {
    opacity: 1;
  }
  .wrapper .box.done{
-   background: #2ed573;
+   background: #00931d;
    color: #fff;
  }
  .wrapper .bar.active{
@@ -422,5 +423,5 @@ h9 {
    }
  }
  .wrapper .button a.bo{
-   background: #2ed573;
+   background: #00931d;
  }
