@@ -28,9 +28,9 @@ header.site-header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #000000; /* contoh warna latar belakang */
-  padding: 13px 20px; /* contoh jarak padding */
-  z-index: 999; /* z-index harus lebih besar dari elemen lainnya di halaman */
+  background-color: #000000; 
+  padding: 13px 20px; 
+  z-index: 999; 
 }
 
 .site-identity {
@@ -43,7 +43,7 @@ header.site-header {
 
 .nav li {
   display: inline-block;
-  margin-left: 20px; /* contoh jarak antara setiap item menu */
+  margin-left: 20px; 
 }
 
 .nav li:first-child {
@@ -317,6 +317,7 @@ footer {
   flex-direction: column;
   z-index: 999;
 }
+
 h7 {
   color: rgb(255, 255, 255);
   font-size: 3em;
@@ -369,6 +370,8 @@ h9 {
   font-size: 20px;
   opacity: 0;
 }
+
+
 .download a {
   position: relative;
   top: 58%;
@@ -388,7 +391,7 @@ h9 {
   margin-right: 5px;
 }
 .download {
-  margin-top: 1px;
+  margin-top: 40px;
 }
 /* JS Begins */
 .wrapper .bar.premium {
@@ -399,7 +402,7 @@ h9 {
   opacity: 1;
 }
 .wrapper .box.done {
-  background: #ba0000;
+  background: #b11f1f;
   color: #fff;
 }
 .wrapper .bar.active {
