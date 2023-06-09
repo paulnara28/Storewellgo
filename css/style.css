@@ -35,15 +35,31 @@ header.site-header {
 
 .site-identity {
   float: left;
+  display: flex;
+  align-items: center;
+}
+
+.site-identity img {
+  height: 40px; /* Sesuaikan ukuran sesuai kebutuhan */
+  margin-right: 10px; /* Sesuaikan margin sesuai kebutuhan */
 }
 
 .site-navigation {
   float: right;
+  
 }
+
+.wa-logo {
+  max-height: 40px; /* Set maksimum tinggi gambar */
+  max-width: 100%; /* Set maksimum lebar gambar agar tidak melebihi lebar kontainer */
+}
+
 
 .nav li {
   display: inline-block;
   margin-left: 20px; 
+  
+  
 }
 
 .nav li:first-child {
@@ -58,6 +74,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 2rem;
+  margin-top: 30px;
 }
 
 .container .title {
