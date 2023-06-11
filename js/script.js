@@ -67,7 +67,7 @@ function progress() {
           elem.classList.remove("premium");
           load.classList.add("show");
           load.classList.remove("done");
-          downloaded.style.background = "#3742fa";
+          downloaded.style.background = "#161fc8";
         }
       }
     }

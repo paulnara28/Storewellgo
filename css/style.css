@@ -381,7 +381,7 @@ h9 {
   bottom: -100px;
   display: flex;
   height: 30px;
-  background: #ce158a;
+  background:  #161fc8;
   border-radius: 5px;
   color: #fff;
   font-size: 20px;
@@ -395,7 +395,7 @@ h9 {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
-  background: #e401ba;
+  background: #e30b0b;
   text-decoration: none;
   color: #fff;
   display: flex;
@@ -419,7 +419,7 @@ h9 {
   opacity: 1;
 }
 .wrapper .box.done {
-  background: #b11f1f;
+  background: #00931d;
   color: #fff;
 }
 .wrapper .bar.active {
